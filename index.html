@@ -5,6 +5,30 @@
 <title>Piyush Roy</title>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
+
+body {
+  background-color: #F8F8FF;
+}
+
+/* Style the side navigation */
+.sidenav {
+  height: 100%;
+  width: 20%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  overflow-x: hidden;
+}
+
+/* Style the content */
+.content {
+  margin-left: 200px;
+  padding-left: 10%;
+}
+
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 300px;
@@ -44,20 +68,34 @@ button:hover, a:hover {
 </head>
 <body>
 
-<h2 style="text-align:center">User Profile Card</h2>
-
-<div class="card">
-  <!-- <img src="/w3images/team2.jpg" alt="Piyush" style="width:100%"> -->
-  <h1>Piyush Roy</h1>
-  <p class="title">Software Developer</p>
-  <p>National Institute of Technology</p>
-  <div style="margin: 24px 0;">
-    <a href="#"><i class="fa fa-dribbble"></i></a> 
-    <a href="#"><i class="fa fa-twitter"></i></a>  
-    <a href="#"><i class="fa fa-linkedin"></i></a>  
-    <a href="#"><i class="fa fa-facebook"></i></a> 
+<div class="sidenav">
+  <div class="card">
+    <!-- <img src="/w3images/team2.jpg" alt="Piyush" style="width:100%"> -->
+    <h1>Piyush Roy</h1>
+    <p class="title">Software Developer</p>
+    <p>National Institute of Technology</p>
+    <div style="margin: 24px 0;">
+      <a href="#"><i class="fa fa-dribbble"></i></a> 
+      <a href="#"><i class="fa fa-twitter"></i></a>  
+      <a href="#"><i class="fa fa-linkedin"></i></a>  
+      <a href="#"><i class="fa fa-facebook"></i></a> 
+    </div>
+    <p><button>Contact</button></p>
   </div>
-  <p><button>Contact</button></p>
+</div>
+<div class="content">
+  <div>
+    <h2>Professional Experience</h2>
+    <p>Have 12 yrs of experience. Mainly working in product based companies. Designed and architected few of the crucial SaaS based payment products.</p>
+  </div>
+  <div>
+    <h2>Domains</h2>
+    <p>Cloud Computing, Virtualization, Networking & Payments</p>
+  </div>
+  <div>
+    <h2>Programming Languages</h2>
+    <p>Java, C/C++, Python, Rust, Javascript</p>
+  </div>
 </div>
 
 </body>
